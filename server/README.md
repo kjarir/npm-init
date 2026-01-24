@@ -69,11 +69,18 @@ server/
 - `POST /api/escrow/generate-description` - Generate project description
 - `POST /api/escrow/generate-milestones` - Generate project milestones
 
+### Call Module
+- `POST /api/call` - Initiate an AI voice call
+- `POST /api/call/webhook` - Webhook for call updates
+- `GET /api/call/:callId` - Get call status
+- `GET /api/call/history/:phoneNumber` - Get call history
+
 ## Features
 
 ✅ Professional file structure  
 ✅ Error handling & validation  
-✅ Database connection with retry  
+✅ Database connection with retry 
+✅ Call module with AI integration
 ✅ AI service integration  
 ✅ CORS configuration  
 ✅ Environment-based configs  
@@ -89,4 +96,6 @@ server/
 - Consistent API responses
 - Environment configuration
 - Database connection management
-- Graceful error recovery
+- Gracaful error recovery
+- Secure Python script execution
+
