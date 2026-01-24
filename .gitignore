@@ -1,0 +1,69 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build / Runtime
+# =========================
+dist/
+build/
+.tmp/
+.cache/
+
+# =========================
+# Uploads / Generated Files
+# =========================
+uploads/
+tmp/
+*.zip
+
+# =========================
+# Database
+# =========================
+data/
+*.sqlite
+*.sqlite3
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Testing
+# =========================
+coverage/
+
+# =========================
+# AI / Model Caches (Ollama, Gemini, etc.)
+# =========================
+.ollama/
+.ai-cache/
+
+# =========================
+# Misc
+# =========================
+*.pem
+*.key
