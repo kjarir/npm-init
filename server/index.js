@@ -5,6 +5,7 @@ import connectDB from './src/config/db.js';
 
 // Import Routes
 import escrowRoutes from './src/modules/escrow/escrow.routes.js';
+import callRoutes from './src/modules/call/call.routes.js';
 
 dotenv.config();
 
@@ -33,6 +34,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/escrow', escrowRoutes);
+app.use('/api/call', callRoutes);
 
 // 404 Handler
 app.use((req, res) => {
